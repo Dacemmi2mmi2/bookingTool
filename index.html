@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="list__currencies">
+        <div class="hide__list">&times;</div>
+        <div class="wrapper"></div>
+    </div>
+    <div class="table__currencies">
+        <div class="controls__buttons">
+            <div class="currensies">add/remove currency</div>
+            <div class="sort__date">sort of date</div>
+            <div class="sort__price">sort of price</div>
+            <div class="export__to__csv">export to csv</div>
+            <div class="page__graphics">to graphics page</div>
+        </div>
+        <div class="titles__table">
+            <div class="currency">Currency</div>
+            <div class="price">Price</div>
+            <div class="volume">Volume</div>
+            <div class="capital">Capital</div>
+            <div class="change">Change 30d</div>
+            <div class="date__currency">Date of currency</div>
+        </div>
+        <div class="body__table"></div>
+    </div>
+    <div class="block__graphs__currencies">
+        <div class="page__table">to talbe page</div>
+        <div class="list__graphs">
+            <div class="wrapper"></div>
+        </div>
+        <div class="wrapper__graphs">
+            <canvas id="graphic__price"></canvas>
+        </div>
+    </div>
+<script src="js/chart.min.js"></script>
+<script type="module" src="js/index.js"></script>
+<!-- <script src="js/fetch.js"></script> -->
+</body>
+</html>
